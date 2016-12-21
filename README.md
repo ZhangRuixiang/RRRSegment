@@ -1,6 +1,8 @@
 # RRRSegment
 这是一个SegmentControl 
+
 支持自动滑动到中间 
+
 并且有点击事件 
 
 直接上图：![](https://github.com/ZhangRuixiang/RRRSegment/raw/master/shot1.png)
