@@ -7,71 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B33C65F01E09310D00A434DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C65EF1E09310D00A434DE /* main.m */; };
-		B33C65F31E09310D00A434DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C65F21E09310D00A434DE /* AppDelegate.m */; };
-		B33C65F61E09310D00A434DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C65F51E09310D00A434DE /* ViewController.m */; };
-		B33C65F91E09310D00A434DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33C65F71E09310D00A434DE /* Main.storyboard */; };
-		B33C65FB1E09310D00A434DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B33C65FA1E09310D00A434DE /* Assets.xcassets */; };
-		B33C65FE1E09310D00A434DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33C65FC1E09310D00A434DE /* LaunchScreen.storyboard */; };
-		B33C66091E09310D00A434DE /* RRRSegmentDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C66081E09310D00A434DE /* RRRSegmentDemoTests.m */; };
-		B33C66141E09310D00A434DE /* RRRSegmentDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C66131E09310D00A434DE /* RRRSegmentDemoUITests.m */; };
-		B33C66251E09316800A434DE /* RRRSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C66241E09316800A434DE /* RRRSegment.m */; };
+		B3B9D8DA1E0A657F0006375B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B9D8D91E0A657F0006375B /* main.m */; };
+		B3B9D8DD1E0A657F0006375B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B9D8DC1E0A657F0006375B /* AppDelegate.m */; };
+		B3B9D8E01E0A657F0006375B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B9D8DF1E0A657F0006375B /* ViewController.m */; };
+		B3B9D8E31E0A657F0006375B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3B9D8E11E0A657F0006375B /* Main.storyboard */; };
+		B3B9D8E51E0A657F0006375B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B9D8E41E0A657F0006375B /* Assets.xcassets */; };
+		B3B9D8E81E0A657F0006375B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3B9D8E61E0A657F0006375B /* LaunchScreen.storyboard */; };
+		B3B9D8F31E0A657F0006375B /* RRRSegmentDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B9D8F21E0A657F0006375B /* RRRSegmentDemoTests.m */; };
+		B3B9D8FE1E0A657F0006375B /* RRRSegmentDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B9D8FD1E0A657F0006375B /* RRRSegmentDemoUITests.m */; };
+		B3B9D90E1E0A65AC0006375B /* RRRSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B9D90D1E0A65AC0006375B /* RRRSegment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B33C66051E09310D00A434DE /* PBXContainerItemProxy */ = {
+		B3B9D8EF1E0A657F0006375B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B33C65E31E09310D00A434DE /* Project object */;
+			containerPortal = B3B9D8CD1E0A657F0006375B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B33C65EA1E09310D00A434DE;
+			remoteGlobalIDString = B3B9D8D41E0A657F0006375B;
 			remoteInfo = RRRSegmentDemo;
 		};
-		B33C66101E09310D00A434DE /* PBXContainerItemProxy */ = {
+		B3B9D8FA1E0A657F0006375B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B33C65E31E09310D00A434DE /* Project object */;
+			containerPortal = B3B9D8CD1E0A657F0006375B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B33C65EA1E09310D00A434DE;
+			remoteGlobalIDString = B3B9D8D41E0A657F0006375B;
 			remoteInfo = RRRSegmentDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B33C65EB1E09310D00A434DE /* RRRSegmentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RRRSegmentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B33C65EF1E09310D00A434DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B33C65F11E09310D00A434DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B33C65F21E09310D00A434DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B33C65F41E09310D00A434DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B33C65F51E09310D00A434DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B33C65F81E09310D00A434DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B33C65FA1E09310D00A434DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B33C65FD1E09310D00A434DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B33C65FF1E09310D00A434DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B33C66041E09310D00A434DE /* RRRSegmentDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRRSegmentDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B33C66081E09310D00A434DE /* RRRSegmentDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRRSegmentDemoTests.m; sourceTree = "<group>"; };
-		B33C660A1E09310D00A434DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B33C660F1E09310D00A434DE /* RRRSegmentDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRRSegmentDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B33C66131E09310D00A434DE /* RRRSegmentDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRRSegmentDemoUITests.m; sourceTree = "<group>"; };
-		B33C66151E09310D00A434DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B33C66231E09316800A434DE /* RRRSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRRSegment.h; sourceTree = "<group>"; };
-		B33C66241E09316800A434DE /* RRRSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRRSegment.m; sourceTree = "<group>"; };
+		B3B9D8D51E0A657F0006375B /* RRRSegmentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RRRSegmentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B9D8D91E0A657F0006375B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3B9D8DB1E0A657F0006375B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3B9D8DC1E0A657F0006375B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3B9D8DE1E0A657F0006375B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3B9D8DF1E0A657F0006375B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3B9D8E21E0A657F0006375B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3B9D8E41E0A657F0006375B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3B9D8E71E0A657F0006375B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3B9D8E91E0A657F0006375B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3B9D8EE1E0A657F0006375B /* RRRSegmentDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRRSegmentDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B9D8F21E0A657F0006375B /* RRRSegmentDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRRSegmentDemoTests.m; sourceTree = "<group>"; };
+		B3B9D8F41E0A657F0006375B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3B9D8F91E0A657F0006375B /* RRRSegmentDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRRSegmentDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B9D8FD1E0A657F0006375B /* RRRSegmentDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRRSegmentDemoUITests.m; sourceTree = "<group>"; };
+		B3B9D8FF1E0A657F0006375B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3B9D90C1E0A65AC0006375B /* RRRSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRRSegment.h; sourceTree = "<group>"; };
+		B3B9D90D1E0A65AC0006375B /* RRRSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRRSegment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B33C65E81E09310D00A434DE /* Frameworks */ = {
+		B3B9D8D21E0A657F0006375B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B33C66011E09310D00A434DE /* Frameworks */ = {
+		B3B9D8EB1E0A657F0006375B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B33C660C1E09310D00A434DE /* Frameworks */ = {
+		B3B9D8F61E0A657F0006375B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,74 +81,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B33C65E21E09310D00A434DE = {
+		B3B9D8CC1E0A657F0006375B = {
 			isa = PBXGroup;
 			children = (
-				B33C65ED1E09310D00A434DE /* RRRSegmentDemo */,
-				B33C66071E09310D00A434DE /* RRRSegmentDemoTests */,
-				B33C66121E09310D00A434DE /* RRRSegmentDemoUITests */,
-				B33C65EC1E09310D00A434DE /* Products */,
+				B3B9D8D71E0A657F0006375B /* RRRSegmentDemo */,
+				B3B9D8F11E0A657F0006375B /* RRRSegmentDemoTests */,
+				B3B9D8FC1E0A657F0006375B /* RRRSegmentDemoUITests */,
+				B3B9D8D61E0A657F0006375B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B33C65EC1E09310D00A434DE /* Products */ = {
+		B3B9D8D61E0A657F0006375B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B33C65EB1E09310D00A434DE /* RRRSegmentDemo.app */,
-				B33C66041E09310D00A434DE /* RRRSegmentDemoTests.xctest */,
-				B33C660F1E09310D00A434DE /* RRRSegmentDemoUITests.xctest */,
+				B3B9D8D51E0A657F0006375B /* RRRSegmentDemo.app */,
+				B3B9D8EE1E0A657F0006375B /* RRRSegmentDemoTests.xctest */,
+				B3B9D8F91E0A657F0006375B /* RRRSegmentDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B33C65ED1E09310D00A434DE /* RRRSegmentDemo */ = {
+		B3B9D8D71E0A657F0006375B /* RRRSegmentDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B33C66221E09316800A434DE /* RRRSegment */,
-				B33C65F11E09310D00A434DE /* AppDelegate.h */,
-				B33C65F21E09310D00A434DE /* AppDelegate.m */,
-				B33C65F41E09310D00A434DE /* ViewController.h */,
-				B33C65F51E09310D00A434DE /* ViewController.m */,
-				B33C65F71E09310D00A434DE /* Main.storyboard */,
-				B33C65FA1E09310D00A434DE /* Assets.xcassets */,
-				B33C65FC1E09310D00A434DE /* LaunchScreen.storyboard */,
-				B33C65FF1E09310D00A434DE /* Info.plist */,
-				B33C65EE1E09310D00A434DE /* Supporting Files */,
+				B3B9D90B1E0A65AC0006375B /* RRRSegment */,
+				B3B9D8DB1E0A657F0006375B /* AppDelegate.h */,
+				B3B9D8DC1E0A657F0006375B /* AppDelegate.m */,
+				B3B9D8DE1E0A657F0006375B /* ViewController.h */,
+				B3B9D8DF1E0A657F0006375B /* ViewController.m */,
+				B3B9D8E11E0A657F0006375B /* Main.storyboard */,
+				B3B9D8E41E0A657F0006375B /* Assets.xcassets */,
+				B3B9D8E61E0A657F0006375B /* LaunchScreen.storyboard */,
+				B3B9D8E91E0A657F0006375B /* Info.plist */,
+				B3B9D8D81E0A657F0006375B /* Supporting Files */,
 			);
 			path = RRRSegmentDemo;
 			sourceTree = "<group>";
 		};
-		B33C65EE1E09310D00A434DE /* Supporting Files */ = {
+		B3B9D8D81E0A657F0006375B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B33C65EF1E09310D00A434DE /* main.m */,
+				B3B9D8D91E0A657F0006375B /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B33C66071E09310D00A434DE /* RRRSegmentDemoTests */ = {
+		B3B9D8F11E0A657F0006375B /* RRRSegmentDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				B33C66081E09310D00A434DE /* RRRSegmentDemoTests.m */,
-				B33C660A1E09310D00A434DE /* Info.plist */,
+				B3B9D8F21E0A657F0006375B /* RRRSegmentDemoTests.m */,
+				B3B9D8F41E0A657F0006375B /* Info.plist */,
 			);
 			path = RRRSegmentDemoTests;
 			sourceTree = "<group>";
 		};
-		B33C66121E09310D00A434DE /* RRRSegmentDemoUITests */ = {
+		B3B9D8FC1E0A657F0006375B /* RRRSegmentDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B33C66131E09310D00A434DE /* RRRSegmentDemoUITests.m */,
-				B33C66151E09310D00A434DE /* Info.plist */,
+				B3B9D8FD1E0A657F0006375B /* RRRSegmentDemoUITests.m */,
+				B3B9D8FF1E0A657F0006375B /* Info.plist */,
 			);
 			path = RRRSegmentDemoUITests;
 			sourceTree = "<group>";
 		};
-		B33C66221E09316800A434DE /* RRRSegment */ = {
+		B3B9D90B1E0A65AC0006375B /* RRRSegment */ = {
 			isa = PBXGroup;
 			children = (
-				B33C66231E09316800A434DE /* RRRSegment.h */,
-				B33C66241E09316800A434DE /* RRRSegment.m */,
+				B3B9D90C1E0A65AC0006375B /* RRRSegment.h */,
+				B3B9D90D1E0A65AC0006375B /* RRRSegment.m */,
 			);
 			path = RRRSegment;
 			sourceTree = "<group>";
@@ -156,13 +156,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B33C65EA1E09310D00A434DE /* RRRSegmentDemo */ = {
+		B3B9D8D41E0A657F0006375B /* RRRSegmentDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B33C66181E09310D00A434DE /* Build configuration list for PBXNativeTarget "RRRSegmentDemo" */;
+			buildConfigurationList = B3B9D9021E0A657F0006375B /* Build configuration list for PBXNativeTarget "RRRSegmentDemo" */;
 			buildPhases = (
-				B33C65E71E09310D00A434DE /* Sources */,
-				B33C65E81E09310D00A434DE /* Frameworks */,
-				B33C65E91E09310D00A434DE /* Resources */,
+				B3B9D8D11E0A657F0006375B /* Sources */,
+				B3B9D8D21E0A657F0006375B /* Frameworks */,
+				B3B9D8D31E0A657F0006375B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -170,74 +170,74 @@
 			);
 			name = RRRSegmentDemo;
 			productName = RRRSegmentDemo;
-			productReference = B33C65EB1E09310D00A434DE /* RRRSegmentDemo.app */;
+			productReference = B3B9D8D51E0A657F0006375B /* RRRSegmentDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B33C66031E09310D00A434DE /* RRRSegmentDemoTests */ = {
+		B3B9D8ED1E0A657F0006375B /* RRRSegmentDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B33C661B1E09310D00A434DE /* Build configuration list for PBXNativeTarget "RRRSegmentDemoTests" */;
+			buildConfigurationList = B3B9D9051E0A657F0006375B /* Build configuration list for PBXNativeTarget "RRRSegmentDemoTests" */;
 			buildPhases = (
-				B33C66001E09310D00A434DE /* Sources */,
-				B33C66011E09310D00A434DE /* Frameworks */,
-				B33C66021E09310D00A434DE /* Resources */,
+				B3B9D8EA1E0A657F0006375B /* Sources */,
+				B3B9D8EB1E0A657F0006375B /* Frameworks */,
+				B3B9D8EC1E0A657F0006375B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B33C66061E09310D00A434DE /* PBXTargetDependency */,
+				B3B9D8F01E0A657F0006375B /* PBXTargetDependency */,
 			);
 			name = RRRSegmentDemoTests;
 			productName = RRRSegmentDemoTests;
-			productReference = B33C66041E09310D00A434DE /* RRRSegmentDemoTests.xctest */;
+			productReference = B3B9D8EE1E0A657F0006375B /* RRRSegmentDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B33C660E1E09310D00A434DE /* RRRSegmentDemoUITests */ = {
+		B3B9D8F81E0A657F0006375B /* RRRSegmentDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B33C661E1E09310D00A434DE /* Build configuration list for PBXNativeTarget "RRRSegmentDemoUITests" */;
+			buildConfigurationList = B3B9D9081E0A657F0006375B /* Build configuration list for PBXNativeTarget "RRRSegmentDemoUITests" */;
 			buildPhases = (
-				B33C660B1E09310D00A434DE /* Sources */,
-				B33C660C1E09310D00A434DE /* Frameworks */,
-				B33C660D1E09310D00A434DE /* Resources */,
+				B3B9D8F51E0A657F0006375B /* Sources */,
+				B3B9D8F61E0A657F0006375B /* Frameworks */,
+				B3B9D8F71E0A657F0006375B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B33C66111E09310D00A434DE /* PBXTargetDependency */,
+				B3B9D8FB1E0A657F0006375B /* PBXTargetDependency */,
 			);
 			name = RRRSegmentDemoUITests;
 			productName = RRRSegmentDemoUITests;
-			productReference = B33C660F1E09310D00A434DE /* RRRSegmentDemoUITests.xctest */;
+			productReference = B3B9D8F91E0A657F0006375B /* RRRSegmentDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B33C65E31E09310D00A434DE /* Project object */ = {
+		B3B9D8CD1E0A657F0006375B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "张瑞想";
 				TargetAttributes = {
-					B33C65EA1E09310D00A434DE = {
+					B3B9D8D41E0A657F0006375B = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 27659RPABJ;
 						ProvisioningStyle = Automatic;
 					};
-					B33C66031E09310D00A434DE = {
+					B3B9D8ED1E0A657F0006375B = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 27659RPABJ;
 						ProvisioningStyle = Automatic;
-						TestTargetID = B33C65EA1E09310D00A434DE;
+						TestTargetID = B3B9D8D41E0A657F0006375B;
 					};
-					B33C660E1E09310D00A434DE = {
+					B3B9D8F81E0A657F0006375B = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 27659RPABJ;
 						ProvisioningStyle = Automatic;
-						TestTargetID = B33C65EA1E09310D00A434DE;
+						TestTargetID = B3B9D8D41E0A657F0006375B;
 					};
 				};
 			};
-			buildConfigurationList = B33C65E61E09310D00A434DE /* Build configuration list for PBXProject "RRRSegmentDemo" */;
+			buildConfigurationList = B3B9D8D01E0A657F0006375B /* Build configuration list for PBXProject "RRRSegmentDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -245,37 +245,37 @@
 				en,
 				Base,
 			);
-			mainGroup = B33C65E21E09310D00A434DE;
-			productRefGroup = B33C65EC1E09310D00A434DE /* Products */;
+			mainGroup = B3B9D8CC1E0A657F0006375B;
+			productRefGroup = B3B9D8D61E0A657F0006375B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B33C65EA1E09310D00A434DE /* RRRSegmentDemo */,
-				B33C66031E09310D00A434DE /* RRRSegmentDemoTests */,
-				B33C660E1E09310D00A434DE /* RRRSegmentDemoUITests */,
+				B3B9D8D41E0A657F0006375B /* RRRSegmentDemo */,
+				B3B9D8ED1E0A657F0006375B /* RRRSegmentDemoTests */,
+				B3B9D8F81E0A657F0006375B /* RRRSegmentDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B33C65E91E09310D00A434DE /* Resources */ = {
+		B3B9D8D31E0A657F0006375B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B33C65FE1E09310D00A434DE /* LaunchScreen.storyboard in Resources */,
-				B33C65FB1E09310D00A434DE /* Assets.xcassets in Resources */,
-				B33C65F91E09310D00A434DE /* Main.storyboard in Resources */,
+				B3B9D8E81E0A657F0006375B /* LaunchScreen.storyboard in Resources */,
+				B3B9D8E51E0A657F0006375B /* Assets.xcassets in Resources */,
+				B3B9D8E31E0A657F0006375B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B33C66021E09310D00A434DE /* Resources */ = {
+		B3B9D8EC1E0A657F0006375B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B33C660D1E09310D00A434DE /* Resources */ = {
+		B3B9D8F71E0A657F0006375B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -285,61 +285,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B33C65E71E09310D00A434DE /* Sources */ = {
+		B3B9D8D11E0A657F0006375B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B33C65F61E09310D00A434DE /* ViewController.m in Sources */,
-				B33C65F31E09310D00A434DE /* AppDelegate.m in Sources */,
-				B33C66251E09316800A434DE /* RRRSegment.m in Sources */,
-				B33C65F01E09310D00A434DE /* main.m in Sources */,
+				B3B9D90E1E0A65AC0006375B /* RRRSegment.m in Sources */,
+				B3B9D8E01E0A657F0006375B /* ViewController.m in Sources */,
+				B3B9D8DD1E0A657F0006375B /* AppDelegate.m in Sources */,
+				B3B9D8DA1E0A657F0006375B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B33C66001E09310D00A434DE /* Sources */ = {
+		B3B9D8EA1E0A657F0006375B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B33C66091E09310D00A434DE /* RRRSegmentDemoTests.m in Sources */,
+				B3B9D8F31E0A657F0006375B /* RRRSegmentDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B33C660B1E09310D00A434DE /* Sources */ = {
+		B3B9D8F51E0A657F0006375B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B33C66141E09310D00A434DE /* RRRSegmentDemoUITests.m in Sources */,
+				B3B9D8FE1E0A657F0006375B /* RRRSegmentDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B33C66061E09310D00A434DE /* PBXTargetDependency */ = {
+		B3B9D8F01E0A657F0006375B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B33C65EA1E09310D00A434DE /* RRRSegmentDemo */;
-			targetProxy = B33C66051E09310D00A434DE /* PBXContainerItemProxy */;
+			target = B3B9D8D41E0A657F0006375B /* RRRSegmentDemo */;
+			targetProxy = B3B9D8EF1E0A657F0006375B /* PBXContainerItemProxy */;
 		};
-		B33C66111E09310D00A434DE /* PBXTargetDependency */ = {
+		B3B9D8FB1E0A657F0006375B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B33C65EA1E09310D00A434DE /* RRRSegmentDemo */;
-			targetProxy = B33C66101E09310D00A434DE /* PBXContainerItemProxy */;
+			target = B3B9D8D41E0A657F0006375B /* RRRSegmentDemo */;
+			targetProxy = B3B9D8FA1E0A657F0006375B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B33C65F71E09310D00A434DE /* Main.storyboard */ = {
+		B3B9D8E11E0A657F0006375B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B33C65F81E09310D00A434DE /* Base */,
+				B3B9D8E21E0A657F0006375B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B33C65FC1E09310D00A434DE /* LaunchScreen.storyboard */ = {
+		B3B9D8E61E0A657F0006375B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B33C65FD1E09310D00A434DE /* Base */,
+				B3B9D8E71E0A657F0006375B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -347,7 +347,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B33C66161E09310D00A434DE /* Debug */ = {
+		B3B9D9001E0A657F0006375B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -394,7 +394,7 @@
 			};
 			name = Debug;
 		};
-		B33C66171E09310D00A434DE /* Release */ = {
+		B3B9D9011E0A657F0006375B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -435,7 +435,7 @@
 			};
 			name = Release;
 		};
-		B33C66191E09310D00A434DE /* Debug */ = {
+		B3B9D9031E0A657F0006375B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -447,7 +447,7 @@
 			};
 			name = Debug;
 		};
-		B33C661A1E09310D00A434DE /* Release */ = {
+		B3B9D9041E0A657F0006375B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -459,7 +459,7 @@
 			};
 			name = Release;
 		};
-		B33C661C1E09310D00A434DE /* Debug */ = {
+		B3B9D9061E0A657F0006375B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,7 +472,7 @@
 			};
 			name = Debug;
 		};
-		B33C661D1E09310D00A434DE /* Release */ = {
+		B3B9D9071E0A657F0006375B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,7 +485,7 @@
 			};
 			name = Release;
 		};
-		B33C661F1E09310D00A434DE /* Debug */ = {
+		B3B9D9091E0A657F0006375B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 27659RPABJ;
@@ -497,7 +497,7 @@
 			};
 			name = Debug;
 		};
-		B33C66201E09310D00A434DE /* Release */ = {
+		B3B9D90A1E0A657F0006375B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 27659RPABJ;
@@ -512,43 +512,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B33C65E61E09310D00A434DE /* Build configuration list for PBXProject "RRRSegmentDemo" */ = {
+		B3B9D8D01E0A657F0006375B /* Build configuration list for PBXProject "RRRSegmentDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B33C66161E09310D00A434DE /* Debug */,
-				B33C66171E09310D00A434DE /* Release */,
+				B3B9D9001E0A657F0006375B /* Debug */,
+				B3B9D9011E0A657F0006375B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B33C66181E09310D00A434DE /* Build configuration list for PBXNativeTarget "RRRSegmentDemo" */ = {
+		B3B9D9021E0A657F0006375B /* Build configuration list for PBXNativeTarget "RRRSegmentDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B33C66191E09310D00A434DE /* Debug */,
-				B33C661A1E09310D00A434DE /* Release */,
+				B3B9D9031E0A657F0006375B /* Debug */,
+				B3B9D9041E0A657F0006375B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		B33C661B1E09310D00A434DE /* Build configuration list for PBXNativeTarget "RRRSegmentDemoTests" */ = {
+		B3B9D9051E0A657F0006375B /* Build configuration list for PBXNativeTarget "RRRSegmentDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B33C661C1E09310D00A434DE /* Debug */,
-				B33C661D1E09310D00A434DE /* Release */,
+				B3B9D9061E0A657F0006375B /* Debug */,
+				B3B9D9071E0A657F0006375B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		B33C661E1E09310D00A434DE /* Build configuration list for PBXNativeTarget "RRRSegmentDemoUITests" */ = {
+		B3B9D9081E0A657F0006375B /* Build configuration list for PBXNativeTarget "RRRSegmentDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B33C661F1E09310D00A434DE /* Debug */,
-				B33C66201E09310D00A434DE /* Release */,
+				B3B9D9091E0A657F0006375B /* Debug */,
+				B3B9D90A1E0A657F0006375B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B33C65E31E09310D00A434DE /* Project object */;
+	rootObject = B3B9D8CD1E0A657F0006375B /* Project object */;
 }

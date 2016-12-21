@@ -2,7 +2,7 @@
 //  ViewController.m
 //  RRRSegmentDemo
 //
-//  Created by 张瑞想 on 2016/12/20.
+//  Created by 张瑞想 on 2016/12/21.
 //  Copyright © 2016年 张瑞想. All rights reserved.
 //
 
@@ -23,7 +23,7 @@
     
     RRRSegment *segment = [[RRRSegment alloc] initWithFrame:CGRectMake(0, 80, SCREEN_WIDTH, 30)];
     
-
+    
     segment.backgroundColor = [UIColor orangeColor];
     segment.selectedTextColor = [UIColor redColor];
     segment.isShowUnderline = YES;
@@ -34,11 +34,11 @@
      };
      */
     segment.tapItemWithIndex = ^(NSInteger index,BOOL animation){
-    
+        
         NSLog(@"****点击了第%ld个 item****",(long)index);
     };
     
-
+    
     [self.view addSubview:segment];
     
     NSMutableArray *arr = [NSMutableArray array];
@@ -48,7 +48,7 @@
         
     }
     segment.titleArray = [NSArray arrayWithArray:arr];
-
+    
 }
 
 
