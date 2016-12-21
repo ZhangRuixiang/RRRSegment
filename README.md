@@ -12,11 +12,6 @@
     segment.selectedTextColor = [UIColor redColor];
     segment.isShowUnderline = YES;
     
-    /**
-     Block的定义格式
-     返回值类型(^block变量名)(形参列表) = ^(形参列表) {
-     };
-     */
     segment.tapItemWithIndex = ^(NSInteger index,BOOL animation){
         
         NSLog(@"****点击了第%ld个 item****",(long)index);
@@ -32,6 +27,5 @@
         
     }
     segment.titleArray = [NSArray arrayWithArray:arr];
-    
-
+ 
 ```
