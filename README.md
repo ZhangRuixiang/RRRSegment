@@ -6,9 +6,10 @@
 并且有点击事件 
 
 直接上图：
+
 <img src="https://github.com/ZhangRuixiang/RRRSegment/raw/master/shot1.png" width="320">
 
-#使用方法
+# 使用方法
 ```
  RRRSegment *segment = [[RRRSegment alloc] initWithFrame:CGRectMake(0, 80, SCREEN_WIDTH, 30)];
     
