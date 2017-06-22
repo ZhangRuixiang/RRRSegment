@@ -5,12 +5,12 @@
 
 并且有点击事件 
 
-直接上图：![](https://github.com/ZhangRuixiang/RRRSegment/raw/master/shot1.png)
+直接上图：
+<img src="https://github.com/ZhangRuixiang/RRRSegment/raw/master/shot1.png" width="320">
 
-#usage
+#使用方法
 ```
  RRRSegment *segment = [[RRRSegment alloc] initWithFrame:CGRectMake(0, 80, SCREEN_WIDTH, 30)];
-    
     
     segment.backgroundColor = [UIColor orangeColor];
     segment.selectedTextColor = [UIColor redColor];
@@ -19,8 +19,8 @@
     segment.tapItemWithIndex = ^(NSInteger index,BOOL animation){
         
         NSLog(@"****点击了第%ld个 item****",(long)index);
+
     };
-    
     
     [self.view addSubview:segment];
     

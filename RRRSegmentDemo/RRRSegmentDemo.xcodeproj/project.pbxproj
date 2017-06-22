@@ -528,6 +528,7 @@
 				B3B9D9041E0A657F0006375B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3B9D9051E0A657F0006375B /* Build configuration list for PBXNativeTarget "RRRSegmentDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +537,7 @@
 				B3B9D9071E0A657F0006375B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3B9D9081E0A657F0006375B /* Build configuration list for PBXNativeTarget "RRRSegmentDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +546,7 @@
 				B3B9D90A1E0A657F0006375B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

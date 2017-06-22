@@ -9,17 +9,15 @@
 #import "RRRSegment.h"
 #import <objc/runtime.h>
 
-
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
 @interface RRRSegment()
 
-@property(nonatomic,strong)UIView *line;
-@property (nonatomic, strong) NSMutableArray *btnArray;
+@property (nonatomic, strong) UIView *line;
+@property (nonatomic, copy) NSMutableArray *btnArray;
 
 @end
-
 
 @implementation RRRSegment
 
@@ -56,11 +54,9 @@
     _lineColor = [UIColor redColor];
     _separatorColor = [UIColor whiteColor];
     
-    
     self.showsHorizontalScrollIndicator = NO;
     self.showsVerticalScrollIndicator = NO;
     self.scrollsToTop = NO;
-    self.tapAnimation = YES;
     self.isCanAutomaticallySlide = YES;
     self.isShowUnderline = NO;
     self.isShowBorderline = NO;
@@ -75,7 +71,6 @@ static const char objcKey;
     _titleArray = titleArray;
     
     if(!self){
-
         return;
     }
     
@@ -168,55 +163,6 @@ static const char objcKey;
     self.contentSize = CGSizeMake(width*titleArray.count, height);
 }
 
-
-#pragma mark - 点击事件
-
--(void)itemButtonClicked:(UIButton*)btn
-{
-
-    //接入外部效果
-    NSNumber *index = objc_getAssociatedObject(btn, &objcKey);
-    _currentIndex = [index integerValue];
-    [self changeItemColor:_currentIndex];
-    [self changeLine:_currentIndex];
-    
-    
-    
-//    if(_tapAnimation){
-//        
-//        //有动画，由call is scrollView 带动线条，改变颜色
-//        
-//        [self changeItemColor:_currentIndex];
-//        [self changeLine:_currentIndex];
-//        
-//    }else{
-//        
-//        //没有动画，需要手动瞬移线条，改变颜色
-//        [self changeItemColor:_currentIndex];
-//        [self changeLine:_currentIndex];
-//    }
-    
-    
-    
-    
-    // 滑动
-    if (_isCanAutomaticallySlide) {
-        
-        if ((_titleArray.count * self.itemWidth) >= SCREEN_WIDTH) {
-            [self changeScrollOfSet:_currentIndex];
-        }
-        
-    }
-    
-    
-    if(self.tapItemWithIndex){
-        _tapItemWithIndex(_currentIndex,_tapAnimation);
-    }
-    
-    
-}
-
-
 #pragma mark - Methods
 
 //改变文字焦点
@@ -252,33 +198,6 @@ static const char objcKey;
     [self bringSubviewToFront:_line];
 }
 
-
-//向上取整
-//- (NSInteger)changeProgressToInteger:(float)x
-//{
-//    
-//    float max = _titleArray.count;
-//    float min = 0;
-//    
-//    NSInteger index = 0;
-//    
-//    if(x< min+0.5){
-//        
-//        index = min;
-//        
-//    }else if(x >= max-0.5){
-//        
-//        index = max;
-//        
-//    }else{
-//        
-//        index = (x+0.5)/1;
-//    }
-//    
-//    return index;
-//}
-
-
 //移动ScrollView
 -(void)changeScrollOfSet:(NSInteger)index
 {
@@ -296,31 +215,70 @@ static const char objcKey;
         leftSpace = scrollWidth - self.frame.size.width;
     }
     [self setContentOffset:CGPointMake(leftSpace, 0) animated:YES];
-    
 }
 
+//向上取整
+- (NSInteger)changeProgressToInteger:(float)x
+{
+    float max = _titleArray.count;
+    float min = 0;
+    
+    NSInteger index = 0;
+    if(x< min+0.5){
+        index = min;
+    } else if(x >= max-0.5){
+        index = max;
+    } else {
+        index = (x+0.5)/1;
+    }
+    
+    return index;
+}
 
+#pragma mark - 点击事件
 
-#pragma mark - 在ScrollViewDelegate中回调
-//-(void)moveToIndex:(float)x
-//{
-//    [self changeLine:x];
-//    NSInteger tempIndex = [self changeProgressToInteger:x];
-//    if(tempIndex != _currentIndex){
-//        //保证在一个item内滑动，只执行一次
-//        [self changeItemColor:tempIndex];
-//    }
-//    _currentIndex = tempIndex;
-//}
+-(void)itemButtonClicked:(UIButton*)btn
+{
+    //接入外部效果
+    NSNumber *index = objc_getAssociatedObject(btn, &objcKey);
+    _currentIndex = [index integerValue];
+    [self changeItemColor:_currentIndex];
+    [self changeLine:_currentIndex];
+    
+    // 滑动
+    if (_isCanAutomaticallySlide) {
+        if ((_titleArray.count * self.itemWidth) >= SCREEN_WIDTH) {
+            [self changeScrollOfSet:_currentIndex];
+        }
+    }
+    
+    if(self.tapItemWithIndex){
+        _tapItemWithIndex(_currentIndex);
+    }
+}
 
-//-(void)endMoveToIndex:(float)x
-//{
-//    [self changeLine:x];
-//    [self changeItemColor:x];
-//    _currentIndex = x;
-//    
-//    [self changeScrollOfSet:x];
-//}
+#pragma mark - 外部事件
+
+-(void)moveToIndex:(float)x
+{
+    [self changeLine:x];
+    NSInteger tempIndex = [self changeProgressToInteger:x];
+    if(tempIndex != _currentIndex){
+        
+        // 保证在一个item内滑动，只执行一次
+        [self changeItemColor:tempIndex];
+    }
+    _currentIndex = tempIndex;
+}
+
+-(void)endMoveToIndex:(float)x
+{
+    [self changeLine:x];
+    [self changeItemColor:x];
+    _currentIndex = x;
+    
+    [self changeScrollOfSet:x];
+}
 
 @end
 
